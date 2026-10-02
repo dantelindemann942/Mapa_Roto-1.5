@@ -1,0 +1,7 @@
+# Runtime used by the Windows desktop build. Core versions follow upstream
+# OpenShorts; pywebview supplies the native Edge WebView2 shell.
+-r requirements.txt
+pywebview>=5.3,<6
+PyJWT>=2.9,<3
+email-validator>=2.2,<3
+
